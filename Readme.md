@@ -19,7 +19,9 @@ To run the Chat Bot, follow these steps:
 
 Ensure you have Python installed on your system (Python 3.x is recommended).
 
-Install the required dependencies by running the following command:
+Install the required dependencies by running the following commands:
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 pip install -r requirements.txt
 
